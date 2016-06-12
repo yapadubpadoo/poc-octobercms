@@ -1,0 +1,41 @@
+1465670702s:6408:"a:6:{s:5:"mtime";i:1465669992;s:7:"content";s:3111:"title = "Gallery"
+url = "/gallery"
+layout = "default"
+description = "Gallery with lightbox modals"
+==
+<div class="container">
+
+       <h1 class="title">Gallery</h1>
+       <div class="row gallery">
+              <div class="col-sm-4 wowload fadeInUp"><a href="{{ 'assets/images/photos/1.jpg'|theme }}" title="Foods" class="gallery-image" data-gallery><img src="{{ 'assets/images/photos/1.jpg'|theme }}" class="img-responsive"></a></div>
+              <div class="col-sm-4 wowload fadeInUp"><a href="{{ 'assets/images/photos/2.jpg'|theme }}" title="Coffee" class="gallery-image" data-gallery><img src="{{ 'assets/images/photos/2.jpg'|theme }}" class="img-responsive"></a></div>
+              <div class="col-sm-4 wowload fadeInUp"><a href="{{ 'assets/images/photos/3.jpg'|theme }}" title="Travel" class="gallery-image" data-gallery><img src="{{ 'assets/images/photos/3.jpg'|theme }}" class="img-responsive"></a></div>
+              <div class="col-sm-4 wowload fadeInUp"><a href="{{ 'assets/images/photos/4.jpg'|theme }}" title="Adventure" class="gallery-image" data-gallery><img src="{{ 'assets/images/photos/4.jpg'|theme }}" class="img-responsive"></a></div>
+              <div class="col-sm-4 wowload fadeInUp"><a href="{{ 'assets/images/photos/5.jpg'|theme }}" title="Fruits" class="gallery-image" data-gallery><img src="{{ 'assets/images/photos/5.jpg'|theme }}" class="img-responsive"></a></div>
+              <div class="col-sm-4 wowload fadeInUp"><a href="{{ 'assets/images/photos/6.jpg'|theme }}" title="Summer" class="gallery-image" data-gallery><img src="{{ 'assets/images/photos/6.jpg'|theme }}" class="img-responsive"></a></div>
+              <div class="col-sm-4 wowload fadeInUp"><a href="{{ 'assets/images/photos/7.jpg'|theme }}" title="Bathroom" class="gallery-image" data-gallery><img src="{{ 'assets/images/photos/7.jpg'|theme }}" class="img-responsive"></a></div>
+              <div class="col-sm-4 wowload fadeInUp"><a href="{{ 'assets/images/photos/8.jpg'|theme }}" title="Rooms" class="gallery-image" data-gallery><img src="{{ 'assets/images/photos/8.jpg'|theme }}" class="img-responsive"></a></div>
+              <div class="col-sm-4 wowload fadeInUp"><a href="{{ 'assets/images/photos/9.jpg'|theme }}" title="Big Room" class="gallery-image" data-gallery><img src="{{ 'assets/images/photos/9.jpg'|theme }}" class="img-responsive"></a></div>
+              <div class="col-sm-4 wowload fadeInUp"><a href="{{ 'assets/images/photos/11.jpg'|theme }}" title="Living Room" class="gallery-image" data-gallery><img src="{{ 'assets/images/photos/11.jpg'|theme }}" class="img-responsive"></a></div>
+              <div class="col-sm-4 wowload fadeInUp"><a href="{{ 'assets/images/photos/1.jpg'|theme }}" title="Fruits" class="gallery-image" data-gallery><img src="{{ 'assets/images/photos/1.jpg'|theme }}" class="img-responsive"></a></div>
+              <div class="col-sm-4 wowload fadeInUp"><a href="{{ 'assets/images/photos/3.jpg'|theme }}" title="Travel" class="gallery-image" data-gallery><img src="{{ 'assets/images/photos/3.jpg'|theme }}" class="img-responsive"></a></div>
+       </div>
+</div>
+";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:7:"Gallery";s:3:"url";s:8:"/gallery";s:6:"layout";s:7:"default";s:11:"description";s:28:"Gallery with lightbox modals";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:3008:"<div class="container">
+
+       <h1 class="title">Gallery</h1>
+       <div class="row gallery">
+              <div class="col-sm-4 wowload fadeInUp"><a href="{{ 'assets/images/photos/1.jpg'|theme }}" title="Foods" class="gallery-image" data-gallery><img src="{{ 'assets/images/photos/1.jpg'|theme }}" class="img-responsive"></a></div>
+              <div class="col-sm-4 wowload fadeInUp"><a href="{{ 'assets/images/photos/2.jpg'|theme }}" title="Coffee" class="gallery-image" data-gallery><img src="{{ 'assets/images/photos/2.jpg'|theme }}" class="img-responsive"></a></div>
+              <div class="col-sm-4 wowload fadeInUp"><a href="{{ 'assets/images/photos/3.jpg'|theme }}" title="Travel" class="gallery-image" data-gallery><img src="{{ 'assets/images/photos/3.jpg'|theme }}" class="img-responsive"></a></div>
+              <div class="col-sm-4 wowload fadeInUp"><a href="{{ 'assets/images/photos/4.jpg'|theme }}" title="Adventure" class="gallery-image" data-gallery><img src="{{ 'assets/images/photos/4.jpg'|theme }}" class="img-responsive"></a></div>
+              <div class="col-sm-4 wowload fadeInUp"><a href="{{ 'assets/images/photos/5.jpg'|theme }}" title="Fruits" class="gallery-image" data-gallery><img src="{{ 'assets/images/photos/5.jpg'|theme }}" class="img-responsive"></a></div>
+              <div class="col-sm-4 wowload fadeInUp"><a href="{{ 'assets/images/photos/6.jpg'|theme }}" title="Summer" class="gallery-image" data-gallery><img src="{{ 'assets/images/photos/6.jpg'|theme }}" class="img-responsive"></a></div>
+              <div class="col-sm-4 wowload fadeInUp"><a href="{{ 'assets/images/photos/7.jpg'|theme }}" title="Bathroom" class="gallery-image" data-gallery><img src="{{ 'assets/images/photos/7.jpg'|theme }}" class="img-responsive"></a></div>
+              <div class="col-sm-4 wowload fadeInUp"><a href="{{ 'assets/images/photos/8.jpg'|theme }}" title="Rooms" class="gallery-image" data-gallery><img src="{{ 'assets/images/photos/8.jpg'|theme }}" class="img-responsive"></a></div>
+              <div class="col-sm-4 wowload fadeInUp"><a href="{{ 'assets/images/photos/9.jpg'|theme }}" title="Big Room" class="gallery-image" data-gallery><img src="{{ 'assets/images/photos/9.jpg'|theme }}" class="img-responsive"></a></div>
+              <div class="col-sm-4 wowload fadeInUp"><a href="{{ 'assets/images/photos/11.jpg'|theme }}" title="Living Room" class="gallery-image" data-gallery><img src="{{ 'assets/images/photos/11.jpg'|theme }}" class="img-responsive"></a></div>
+              <div class="col-sm-4 wowload fadeInUp"><a href="{{ 'assets/images/photos/1.jpg'|theme }}" title="Fruits" class="gallery-image" data-gallery><img src="{{ 'assets/images/photos/1.jpg'|theme }}" class="img-responsive"></a></div>
+              <div class="col-sm-4 wowload fadeInUp"><a href="{{ 'assets/images/photos/3.jpg'|theme }}" title="Travel" class="gallery-image" data-gallery><img src="{{ 'assets/images/photos/3.jpg'|theme }}" class="img-responsive"></a></div>
+       </div>
+</div>";}";

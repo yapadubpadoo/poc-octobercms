@@ -1,0 +1,22 @@
+1465670702s:1533:"a:6:{s:5:"mtime";i:1465669992;s:7:"content";s:659:"title = "Error Page (500)"
+url = "/error"
+layout = "default"
+description = "Error Page (500)"
+meta_author = "Amit Bajracharya and József Tamás Herczeg"
+meta_description = "Free Bootstrap powered theme for hotels and accomodation business, ported for OctoberCMS"
+meta_keywords = "hotels, accomodation, business, gallery, responsive, bootstrap, template, theme"
+==
+<div class="container">
+    <h1 class="title">Ooops!</h1>
+    <h2>An Error Occurred</h2>
+    <h3>We're so sorry, the page you requested cannot be displayed due to an error.</h3>
+    <p><a class="btn btn-primary" href="{{ 'home'|page }}">GO BACK TO THE HOMEPAGE</a></p>
+    <p>&nbsp;</p>
+</div>
+";s:7:"viewBag";a:0:{}s:8:"settings";a:8:{s:5:"title";s:16:"Error Page (500)";s:3:"url";s:6:"/error";s:6:"layout";s:7:"default";s:11:"description";s:16:"Error Page (500)";s:11:"meta_author";s:43:"Amit Bajracharya and József Tamás Herczeg";s:16:"meta_description";s:88:"Free Bootstrap powered theme for hotels and accomodation business, ported for OctoberCMS";s:13:"meta_keywords";s:79:"hotels, accomodation, business, gallery, responsive, bootstrap, template, theme";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:293:"<div class="container">
+    <h1 class="title">Ooops!</h1>
+    <h2>An Error Occurred</h2>
+    <h3>We're so sorry, the page you requested cannot be displayed due to an error.</h3>
+    <p><a class="btn btn-primary" href="{{ 'home'|page }}">GO BACK TO THE HOMEPAGE</a></p>
+    <p>&nbsp;</p>
+</div>";}";

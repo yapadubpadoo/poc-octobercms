@@ -1,0 +1,62 @@
+1465671401s:2286:"a:6:{s:5:"mtime";i:1465670788;s:7:"content";s:1050:"title = "Welcome"
+url = "/"
+layout = "default"
+is_hidden = 0
+==
+<div class="container-fluid">
+    <br>
+    <br>
+    <br>
+
+    <div class="row">
+        <div class="col-md-4 col-md-offset-4">
+            <image src="{{ 'assets/images/october.png'|theme }}" width="100%" class="wow animate slideInDown">
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <div class="row">
+        <div class="col-md-3">
+            <image src="{{ 'assets/images/animate.png'|theme }}" width="100%" class="wow animate slideInLeft">
+        </div>
+        <div class="col-md-3">
+            <image src="{{ 'assets/images/bootstrap.png'|theme }}" width="100%" class="wow animate slideInUp">
+        </div>
+        <div class="col-md-3">
+            <image src="{{ 'assets/images/fontawesome.png'|theme }}" width="100%" class="wow animate slideInUp">
+        </div>
+        <div class="col-md-3">
+            <image src="{{ 'assets/images/wow.jpg'|theme }}" width="100%" class="wow animate slideInRight">
+        </div>
+    </div>
+</div>";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:7:"Welcome";s:3:"url";s:1:"/";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:986:"<div class="container-fluid">
+    <br>
+    <br>
+    <br>
+
+    <div class="row">
+        <div class="col-md-4 col-md-offset-4">
+            <image src="{{ 'assets/images/october.png'|theme }}" width="100%" class="wow animate slideInDown">
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <div class="row">
+        <div class="col-md-3">
+            <image src="{{ 'assets/images/animate.png'|theme }}" width="100%" class="wow animate slideInLeft">
+        </div>
+        <div class="col-md-3">
+            <image src="{{ 'assets/images/bootstrap.png'|theme }}" width="100%" class="wow animate slideInUp">
+        </div>
+        <div class="col-md-3">
+            <image src="{{ 'assets/images/fontawesome.png'|theme }}" width="100%" class="wow animate slideInUp">
+        </div>
+        <div class="col-md-3">
+            <image src="{{ 'assets/images/wow.jpg'|theme }}" width="100%" class="wow animate slideInRight">
+        </div>
+    </div>
+</div>";}";

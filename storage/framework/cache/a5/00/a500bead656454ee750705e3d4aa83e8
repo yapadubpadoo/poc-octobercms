@@ -1,0 +1,171 @@
+1465724116s:6152:"a:6:{s:5:"mtime";i:1465670061;s:7:"content";s:2965:"title = "Product"
+url = "/product/:slug"
+layout = "default"
+
+[shopProduct]
+slug = "{{ :slug }}"
+basket = "#minibasket"
+mainImageSize = "556"
+subImageSize = "116"
+
+==
+<div class="row">
+    <div class="col-md-6">
+        <div class="row">
+            {% if product.images.count %}
+            <div class="col-md-12">
+                <a href="{{ product.images.first.getPath() }}" class="thumbnail">
+                    <img alt="{{ product.title }}"
+                         src="{{ product.getSquareThumb(mainImageSize, product.images.first) }}"
+                    />
+                </a>
+            </div>
+
+            {% for image in product.images %}
+                <div class="col-md-3">
+                    <a href="{{ image.getPath() }}" class="thumbnail">
+                        <img alt="{{ product.title }}"
+                             src="{{ product.getSquareThumb(subImageSize, image) }}"
+                        />
+                    </a>
+                </div>
+            {% endfor %}
+
+            {% endif %}
+        </div>
+    </div>
+    <div class="col-md-6">
+
+        <h2>{{ product.title }}</h2>
+
+        {{ product.description|raw }}
+
+        {% if product.model %}
+        <div class="row">
+            <div class="col-md-7">
+                <p><strong>Model:</strong> {{ product.model }}</p>
+            </div>
+        </div>
+        {% endif %}
+
+        <form
+            data-request="{{ basketComponent }}::onAddProduct"
+            data-request-data="id: {{ product.id }}"
+            {% if basket %}
+            data-request-update="'{{ basketPartial }}' : '{{ basket }}'"
+            {% endif %}
+        >
+            <div class="row">
+                <div class="col-md-3">
+                    <p class="text-primary lead">
+                        <strong>&pound; {{ product.price }}</strong>
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <label class="sr-only" for="qty">Quantity</label>
+                    <div class="input-group">
+                        <input type="number" class="form-control"
+                            name="quantity" placeholder="Qty"
+                            min="1" max="9999" value="1"
+                            {% if product.outOfStock() %}disabled{% endif %}
+                        >
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-7">
+                    {% if product.inStock() %}
+                        <button type="submit" class="btn btn-primary btn-block">
+                            Add to Basket
+                        </button>
+                    {% else %}
+                        <button type="button" class="btn btn-danger btn-block" disabled>
+                            Out of Stock
+                        </button>
+                    {% endif %}
+                </div>
+            </div>
+        </form>
+
+    </div>
+</div>
+";s:7:"viewBag";a:0:{}s:8:"settings";a:4:{s:5:"title";s:7:"Product";s:3:"url";s:14:"/product/:slug";s:6:"layout";s:7:"default";s:10:"components";a:1:{s:11:"shopProduct";a:4:{s:4:"slug";s:11:"{{ :slug }}";s:6:"basket";s:11:"#minibasket";s:13:"mainImageSize";s:3:"556";s:12:"subImageSize";s:3:"116";}}}s:4:"code";N;s:6:"markup";s:2798:"<div class="row">
+    <div class="col-md-6">
+        <div class="row">
+            {% if product.images.count %}
+            <div class="col-md-12">
+                <a href="{{ product.images.first.getPath() }}" class="thumbnail">
+                    <img alt="{{ product.title }}"
+                         src="{{ product.getSquareThumb(mainImageSize, product.images.first) }}"
+                    />
+                </a>
+            </div>
+
+            {% for image in product.images %}
+                <div class="col-md-3">
+                    <a href="{{ image.getPath() }}" class="thumbnail">
+                        <img alt="{{ product.title }}"
+                             src="{{ product.getSquareThumb(subImageSize, image) }}"
+                        />
+                    </a>
+                </div>
+            {% endfor %}
+
+            {% endif %}
+        </div>
+    </div>
+    <div class="col-md-6">
+
+        <h2>{{ product.title }}</h2>
+
+        {{ product.description|raw }}
+
+        {% if product.model %}
+        <div class="row">
+            <div class="col-md-7">
+                <p><strong>Model:</strong> {{ product.model }}</p>
+            </div>
+        </div>
+        {% endif %}
+
+        <form
+            data-request="{{ basketComponent }}::onAddProduct"
+            data-request-data="id: {{ product.id }}"
+            {% if basket %}
+            data-request-update="'{{ basketPartial }}' : '{{ basket }}'"
+            {% endif %}
+        >
+            <div class="row">
+                <div class="col-md-3">
+                    <p class="text-primary lead">
+                        <strong>&pound; {{ product.price }}</strong>
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <label class="sr-only" for="qty">Quantity</label>
+                    <div class="input-group">
+                        <input type="number" class="form-control"
+                            name="quantity" placeholder="Qty"
+                            min="1" max="9999" value="1"
+                            {% if product.outOfStock() %}disabled{% endif %}
+                        >
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-7">
+                    {% if product.inStock() %}
+                        <button type="submit" class="btn btn-primary btn-block">
+                            Add to Basket
+                        </button>
+                    {% else %}
+                        <button type="button" class="btn btn-danger btn-block" disabled>
+                            Out of Stock
+                        </button>
+                    {% endif %}
+                </div>
+            </div>
+        </form>
+
+    </div>
+</div>";}";

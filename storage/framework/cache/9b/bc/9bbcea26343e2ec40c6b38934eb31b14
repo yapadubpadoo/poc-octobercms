@@ -1,0 +1,64 @@
+1465724116s:2184:"a:6:{s:5:"mtime";i:1465670061;s:7:"content";s:976:"title = "Browse Products"
+url = "/browse/:slug?"
+layout = "default"
+
+[shopProductList]
+category = "{{ :slug }}"
+basket = "#minibasket"
+productPage = "product"
+
+[shopCategories]
+categoryPage = "browse"
+==
+<div class="row">
+    <div class="col-md-3">
+        <div class="list-group">
+            {% for cat in categories %}
+            <a class="list-group-item{% if cat.id == category.id %} active{% endif %}" href="{{ cat.url }}">
+                {{ cat.name }}
+
+                <span class="badge">
+                    {{ cat.productCount }}
+                </span>
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+    <div class="col-md-9">
+        {% if category %}
+        <div class="row">
+            <div class="col-xs-12">
+                <h1>{{ category.name }}</h1>
+                <p>{{ category.description|raw }}</p>
+            </div>
+        </div>
+        {% endif %}
+        {% partial 'product_grid' products=products %}
+    </div>
+</div>
+";s:7:"viewBag";a:0:{}s:8:"settings";a:4:{s:5:"title";s:15:"Browse Products";s:3:"url";s:14:"/browse/:slug?";s:6:"layout";s:7:"default";s:10:"components";a:2:{s:15:"shopProductList";a:3:{s:8:"category";s:11:"{{ :slug }}";s:6:"basket";s:11:"#minibasket";s:11:"productPage";s:7:"product";}s:14:"shopCategories";a:1:{s:12:"categoryPage";s:6:"browse";}}}s:4:"code";N;s:6:"markup";s:771:"<div class="row">
+    <div class="col-md-3">
+        <div class="list-group">
+            {% for cat in categories %}
+            <a class="list-group-item{% if cat.id == category.id %} active{% endif %}" href="{{ cat.url }}">
+                {{ cat.name }}
+
+                <span class="badge">
+                    {{ cat.productCount }}
+                </span>
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+    <div class="col-md-9">
+        {% if category %}
+        <div class="row">
+            <div class="col-xs-12">
+                <h1>{{ category.name }}</h1>
+                <p>{{ category.description|raw }}</p>
+            </div>
+        </div>
+        {% endif %}
+        {% partial 'product_grid' products=products %}
+    </div>
+</div>";}";

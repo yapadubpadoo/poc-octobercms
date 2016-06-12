@@ -1,0 +1,9 @@
+1465671276s:644:"a:6:{s:5:"mtime";i:1465670562;s:7:"content";s:224:"title = "Home"
+url = "/"
+layout = "General_template"
+is_hidden = 0
+meta_title = "SLIDER.WEB studio"
+meta_description = "Разработка, дизайн, инфраструктура."
+==
+{% partial 'portfolio' %}
+";s:7:"viewBag";a:0:{}s:8:"settings";a:7:{s:5:"title";s:4:"Home";s:3:"url";s:1:"/";s:6:"layout";s:16:"General_template";s:9:"is_hidden";s:1:"0";s:10:"meta_title";s:17:"SLIDER.WEB studio";s:16:"meta_description";s:65:"Разработка, дизайн, инфраструктура.";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:25:"{% partial 'portfolio' %}";}";

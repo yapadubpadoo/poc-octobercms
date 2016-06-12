@@ -1,0 +1,9 @@
+1465671493s:590:"a:6:{s:5:"mtime";i:1465670881;s:7:"content";s:207:"title = "Blank Materialize theme"
+url = "/"
+layout = "default"
+==
+<div class="valign-wrapper">
+    <h5 class="valign" style="margin:auto"><img src="{{ 'assets/images/theme-preview.png'|theme }}"></h5>
+</div>";s:7:"viewBag";a:0:{}s:8:"settings";a:4:{s:5:"title";s:23:"Blank Materialize theme";s:3:"url";s:1:"/";s:6:"layout";s:7:"default";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:141:"<div class="valign-wrapper">
+    <h5 class="valign" style="margin:auto"><img src="{{ 'assets/images/theme-preview.png'|theme }}"></h5>
+</div>";}";

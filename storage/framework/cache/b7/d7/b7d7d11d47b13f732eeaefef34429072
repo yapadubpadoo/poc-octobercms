@@ -1,0 +1,97 @@
+1465670702s:3250:"a:6:{s:5:"mtime";i:1465669992;s:7:"content";s:1532:"title = "Contact"
+url = "/contact"
+layout = "default"
+description = "Contact form with Google Maps geolocation"
+==
+<div class="container">
+
+<h1 class="title">Contact</h1>
+
+<!-- form -->
+<div class="contact">
+
+       <div class="row">
+       	
+       	<div class="col-sm-12">
+       	<div class="map">
+       	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9933.460884430251!2d-0.13301252240929382!3d51.50651527467666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon%2C+UK!5e0!3m2!1sen!2snp!4v1414314152341" width="100%" height="300" frameborder="0"></iframe>	
+       	</div>
+
+
+		<div class="col-sm-6 col-sm-offset-3">
+			<div class="spacer">   		
+
+       		<h4>Write to us</h4>
+			<form role="form" name="contact-form" method="post" action="#">
+			<div class="form-group">	
+			<input type="text" class="form-control" name="name" id="name" placeholder="Name" required>
+			</div>
+			<div class="form-group">
+			<input type="email" class="form-control" name="email" id="email" placeholder="Enter your email" required>
+			</div>
+			<div class="form-group">
+			<input type="phone" class="form-control" name="phone" id="phone" placeholder="Phone">
+			</div>
+			<div class="form-group">
+			<textarea type="email" class="form-control" name="message" placeholder="Message" rows="4" required></textarea>
+			</div>
+					
+			<button type="submit" class="btn btn-default">Send</button>
+			</form>
+			</div>
+
+
+       	</div>
+
+       </div>
+</div>
+</div>
+<!-- form -->
+
+</div>
+";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:7:"Contact";s:3:"url";s:8:"/contact";s:6:"layout";s:7:"default";s:11:"description";s:41:"Contact form with Google Maps geolocation";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:1416:"<div class="container">
+
+<h1 class="title">Contact</h1>
+
+<!-- form -->
+<div class="contact">
+
+       <div class="row">
+       	
+       	<div class="col-sm-12">
+       	<div class="map">
+       	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9933.460884430251!2d-0.13301252240929382!3d51.50651527467666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon%2C+UK!5e0!3m2!1sen!2snp!4v1414314152341" width="100%" height="300" frameborder="0"></iframe>	
+       	</div>
+
+
+		<div class="col-sm-6 col-sm-offset-3">
+			<div class="spacer">   		
+
+       		<h4>Write to us</h4>
+			<form role="form" name="contact-form" method="post" action="#">
+			<div class="form-group">	
+			<input type="text" class="form-control" name="name" id="name" placeholder="Name" required>
+			</div>
+			<div class="form-group">
+			<input type="email" class="form-control" name="email" id="email" placeholder="Enter your email" required>
+			</div>
+			<div class="form-group">
+			<input type="phone" class="form-control" name="phone" id="phone" placeholder="Phone">
+			</div>
+			<div class="form-group">
+			<textarea type="email" class="form-control" name="message" placeholder="Message" rows="4" required></textarea>
+			</div>
+					
+			<button type="submit" class="btn btn-default">Send</button>
+			</form>
+			</div>
+
+
+       	</div>
+
+       </div>
+</div>
+</div>
+<!-- form -->
+
+</div>";}";

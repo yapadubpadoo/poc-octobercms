@@ -1,0 +1,106 @@
+1465671401s:3723:"a:6:{s:5:"mtime";i:1465670788;s:7:"content";s:1785:"==
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>{{ this.page.title }}</title>
+    <meta name="description" content="{{ this.page.description }}">
+    <meta name="author" content="">
+
+    {% styles %}
+    <link href="{{ [
+        'assets/vendor/animate.css/animate.min.css',
+        'assets/less/bootstrap.less',
+        'assets/less/font-awesome.less',
+        'assets/vendor/bootstrap/dist/css/bootstrap-theme.min.css',
+        'assets/vendor/summernote/dist/summernote.css',
+    ]|theme }}" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+{% page %}
+
+<script src="{{ [
+            '@jquery',
+            'assets/vendor/bootstrap/js/transition.js',
+            'assets/vendor/bootstrap/js/alert.js',
+            'assets/vendor/bootstrap/js/button.js',
+            'assets/vendor/bootstrap/js/carousel.js',
+            'assets/vendor/bootstrap/js/collapse.js',
+            'assets/vendor/bootstrap/js/dropdown.js',
+            'assets/vendor/bootstrap/js/modal.js',
+            'assets/vendor/bootstrap/js/tooltip.js',
+            'assets/vendor/bootstrap/js/popover.js',
+            'assets/vendor/bootstrap/js/scrollspy.js',
+            'assets/vendor/bootstrap/js/tab.js',
+            'assets/vendor/bootstrap/js/affix.js',
+            'assets/vendor/wow/dist/wow.min.js',
+            'assets/vendor/holderjs/holder.min.js',
+            'assets/vendor/summernote/dist/summernote.min.js',
+            'assets/js/scripts.js',
+        ]|theme }}"></script>
+{% framework extras %}
+{% scripts %}
+</body>
+</html>";s:7:"viewBag";a:0:{}s:8:"settings";a:1:{s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:1782:"<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>{{ this.page.title }}</title>
+    <meta name="description" content="{{ this.page.description }}">
+    <meta name="author" content="">
+
+    {% styles %}
+    <link href="{{ [
+        'assets/vendor/animate.css/animate.min.css',
+        'assets/less/bootstrap.less',
+        'assets/less/font-awesome.less',
+        'assets/vendor/bootstrap/dist/css/bootstrap-theme.min.css',
+        'assets/vendor/summernote/dist/summernote.css',
+    ]|theme }}" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+{% page %}
+
+<script src="{{ [
+            '@jquery',
+            'assets/vendor/bootstrap/js/transition.js',
+            'assets/vendor/bootstrap/js/alert.js',
+            'assets/vendor/bootstrap/js/button.js',
+            'assets/vendor/bootstrap/js/carousel.js',
+            'assets/vendor/bootstrap/js/collapse.js',
+            'assets/vendor/bootstrap/js/dropdown.js',
+            'assets/vendor/bootstrap/js/modal.js',
+            'assets/vendor/bootstrap/js/tooltip.js',
+            'assets/vendor/bootstrap/js/popover.js',
+            'assets/vendor/bootstrap/js/scrollspy.js',
+            'assets/vendor/bootstrap/js/tab.js',
+            'assets/vendor/bootstrap/js/affix.js',
+            'assets/vendor/wow/dist/wow.min.js',
+            'assets/vendor/holderjs/holder.min.js',
+            'assets/vendor/summernote/dist/summernote.min.js',
+            'assets/js/scripts.js',
+        ]|theme }}"></script>
+{% framework extras %}
+{% scripts %}
+</body>
+</html>";}";

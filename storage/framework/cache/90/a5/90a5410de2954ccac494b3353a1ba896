@@ -1,0 +1,22 @@
+1465724116s:806:"a:6:{s:5:"mtime";i:1465670061;s:7:"content";s:302:"title = "Basket"
+url = "/basket"
+layout = "default"
+
+[shopBasket]
+checkoutPage = "checkout"
+productPage = "product"
+==
+<h1>Your Shopping Basket</h1>
+
+{% flash %}
+    <div class="alert alert-{{ type }}">{{ message }}</div>
+{% endflash %}
+
+{% partial 'basket_items' checkoutText='Proceed to Checkout' %}
+";s:7:"viewBag";a:0:{}s:8:"settings";a:4:{s:5:"title";s:6:"Basket";s:3:"url";s:7:"/basket";s:6:"layout";s:7:"default";s:10:"components";a:1:{s:10:"shopBasket";a:2:{s:12:"checkoutPage";s:8:"checkout";s:11:"productPage";s:7:"product";}}}s:4:"code";N;s:6:"markup";s:182:"<h1>Your Shopping Basket</h1>
+
+{% flash %}
+    <div class="alert alert-{{ type }}">{{ message }}</div>
+{% endflash %}
+
+{% partial 'basket_items' checkoutText='Proceed to Checkout' %}";}";

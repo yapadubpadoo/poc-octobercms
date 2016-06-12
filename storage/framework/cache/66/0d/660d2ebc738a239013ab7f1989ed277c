@@ -1,0 +1,72 @@
+1465724117s:2689:"a:6:{s:5:"mtime";i:1465670061;s:7:"content";s:1244:"[shopBasket miniBasket]
+checkoutPage = "checkout"
+productPage = "product"
+basketComponent = "miniBasket"
+basketPartial = "minibasket"
+==
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="{{ 'assets/favicon.ico'|theme }}">
+
+        <title>Octoshop - {{ this.page.title }}</title>
+
+        <link href="{{ 'assets/css/bootstrap.min.css'|theme }}" rel="stylesheet">
+        <link href="{{ 'assets/css/octoshop.css'|theme }}" rel="stylesheet">
+        {% styles %}
+    </head>
+
+    <body>
+
+        {% partial "nav" %}
+
+        <div class="container">
+
+            {% page %}
+
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="{{ 'assets/javascript/bootstrap.min.js'|theme }}"></script>
+        {# IE10 viewport hack for Surface/desktop Windows 8 bug #}
+        <script src="{{ 'assets/javascript/ie10-viewport-bug-workaround.js'|theme }}"></script>
+        <script src="{{ 'assets/javascript/octoshop.js'|theme }}"></script>
+        {% framework %}
+    </body>
+</html>
+";s:7:"viewBag";a:0:{}s:8:"settings";a:1:{s:10:"components";a:1:{s:21:"shopBasket miniBasket";a:4:{s:12:"checkoutPage";s:8:"checkout";s:11:"productPage";s:7:"product";s:15:"basketComponent";s:10:"miniBasket";s:13:"basketPartial";s:10:"minibasket";}}}s:4:"code";N;s:6:"markup";s:1106:"<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="{{ 'assets/favicon.ico'|theme }}">
+
+        <title>Octoshop - {{ this.page.title }}</title>
+
+        <link href="{{ 'assets/css/bootstrap.min.css'|theme }}" rel="stylesheet">
+        <link href="{{ 'assets/css/octoshop.css'|theme }}" rel="stylesheet">
+        {% styles %}
+    </head>
+
+    <body>
+
+        {% partial "nav" %}
+
+        <div class="container">
+
+            {% page %}
+
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="{{ 'assets/javascript/bootstrap.min.js'|theme }}"></script>
+        {# IE10 viewport hack for Surface/desktop Windows 8 bug #}
+        <script src="{{ 'assets/javascript/ie10-viewport-bug-workaround.js'|theme }}"></script>
+        <script src="{{ 'assets/javascript/octoshop.js'|theme }}"></script>
+        {% framework %}
+    </body>
+</html>";}";

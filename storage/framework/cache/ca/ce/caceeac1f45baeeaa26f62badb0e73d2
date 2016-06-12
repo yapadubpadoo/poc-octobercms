@@ -1,0 +1,95 @@
+1465671276s:2779:"a:6:{s:5:"mtime";i:1465670562;s:7:"content";s:1308:"description = "Portfolio grid template"
+==
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> 
+<html class="no-js"> <!--<![endif]-->
+{% partial "meta" %}
+<body>
+    
+   {% partial 'menu' %}
+    
+	{% partial "header" %}
+	<!-- END .header -->
+	
+	
+	<div id="fh5co-main">
+		<div class="container">
+
+			<div class="row">
+				{% page %}
+			</div>
+		</div>
+	</div>
+
+	{% partial "footer" %}
+
+
+	<!-- jQuery -->
+	<script src="{{ 'assets/js/jquery.min.js'|theme }}"></script>
+	<!-- jQuery Easing -->
+	<script src="{{ 'assets/js/jquery.easing.1.3.js'|theme }}"></script>
+	<!-- Bootstrap -->
+	<script src="{{ 'assets/js/bootstrap.min.js'|theme }}"></script>
+	<!-- Waypoints -->
+	<script src="{{ 'assets/js/jquery.waypoints.min.js'|theme }}"></script>
+	<!-- Magnific Popup -->
+	<script src="{{ 'assets/js/jquery.magnific-popup.min.js'|theme }}"></script>
+	<!-- Salvattore -->
+	<script src="{{ 'assets/js/salvattore.min.js'|theme }}"></script>
+	<!-- Main JS -->
+	<script src="{{ 'assets/js/main.js'|theme }}"></script>
+
+	{% framework extras %}
+	{% scripts %}
+	
+</body>
+</html>";s:7:"viewBag";a:0:{}s:8:"settings";a:2:{s:11:"description";s:23:"Portfolio grid template";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:1265:"<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> 
+<html class="no-js"> <!--<![endif]-->
+{% partial "meta" %}
+<body>
+    
+   {% partial 'menu' %}
+    
+	{% partial "header" %}
+	<!-- END .header -->
+	
+	
+	<div id="fh5co-main">
+		<div class="container">
+
+			<div class="row">
+				{% page %}
+			</div>
+		</div>
+	</div>
+
+	{% partial "footer" %}
+
+
+	<!-- jQuery -->
+	<script src="{{ 'assets/js/jquery.min.js'|theme }}"></script>
+	<!-- jQuery Easing -->
+	<script src="{{ 'assets/js/jquery.easing.1.3.js'|theme }}"></script>
+	<!-- Bootstrap -->
+	<script src="{{ 'assets/js/bootstrap.min.js'|theme }}"></script>
+	<!-- Waypoints -->
+	<script src="{{ 'assets/js/jquery.waypoints.min.js'|theme }}"></script>
+	<!-- Magnific Popup -->
+	<script src="{{ 'assets/js/jquery.magnific-popup.min.js'|theme }}"></script>
+	<!-- Salvattore -->
+	<script src="{{ 'assets/js/salvattore.min.js'|theme }}"></script>
+	<!-- Main JS -->
+	<script src="{{ 'assets/js/main.js'|theme }}"></script>
+
+	{% framework extras %}
+	{% scripts %}
+	
+</body>
+</html>";}";
