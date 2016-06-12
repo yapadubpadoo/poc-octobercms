@@ -50,7 +50,7 @@ class __TwigTemplate_3589761dabad9658fa8acfba57008476abf6014bb75d2e0c76b0be47b34
               </ul>
             </div>
             <div class=\"nav navbar-nav navbar-right scroll navbar-telno\">
-                <span class=\"mylabel\"><i class=\"fa fa-phone\"></i>  ติดต่อเรา:</span> 061-6962464, 086-4108120
+                <span class=\"mylabel\"><i class=\"fa fa-phone\"></i>  Call us:</span> 061-6962464, 086-4108120
             </div>
             <!-- #Nav Ends -->
 
@@ -107,7 +107,7 @@ class __TwigTemplate_3589761dabad9658fa8acfba57008476abf6014bb75d2e0c76b0be47b34
 /*               </ul>*/
 /*             </div>*/
 /*             <div class="nav navbar-nav navbar-right scroll navbar-telno">*/
-/*                 <span class="mylabel"><i class="fa fa-phone"></i>  ติดต่อเรา:</span> 061-6962464, 086-4108120*/
+/*                 <span class="mylabel"><i class="fa fa-phone"></i>  Call us:</span> 061-6962464, 086-4108120*/
 /*             </div>*/
 /*             <!-- #Nav Ends -->*/
 /* */

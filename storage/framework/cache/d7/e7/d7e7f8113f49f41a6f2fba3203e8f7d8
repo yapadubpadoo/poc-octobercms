@@ -1,4 +1,4 @@
-1465733426s:9566:"a:6:{s:5:"mtime";i:1465670243;s:7:"content";s:4706:"	<h2 class="text-center  wowload fadeInUp">Some of our happy clients</h2>
+1465749885s:9566:"a:6:{s:5:"mtime";i:1465670243;s:7:"content";s:4706:"	<h2 class="text-center  wowload fadeInUp">Some of our happy clients</h2>
   <div class="clearfix">
     <div class="col-sm-6 partners  wowload fadeInLeft">
          <img src="{{ 'assets/images/partners/1.jpg'|theme }}" alt="partners">

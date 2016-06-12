@@ -166,8 +166,31 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 
 .navbar-telno {
 	padding-right: 15px;
+	padding-left: 15px;
 }
 
 .mylabel {
 	font-weight: bold;
+}
+
+.post-list {
+	margin-top: 9em;
+}
+
+.detail-container-wrapper {
+	margin-top: 9em;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 30px;
+}
+
+.detail-container-wrapper h2, 
+.detail-container-wrapper h3, 
+.detail-container-wrapper h4{
+	margin: 0.5em;
+}
+
+.detail-container-wrapper .content {
+	font-size: 1em;
+	line-height: 1.7em;
 }
